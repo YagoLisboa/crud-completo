@@ -4,14 +4,14 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
-const indexRouter = require(__dirname + '/../routes/index.js');
-const usersRouter = require(__dirname + '/../routes/users.js');
-const apiRouter = require(__dirname + '/../routes/api.js');
+const indexRouter = require(__dirname + '/routes/index.js');
+const usersRouter = require(__dirname + '/routes/users.js');
+const apiRouter = require(__dirname + '/routes/api.js');
 
 const app = express();
 const PORT = 3000;
 
-const db = require(__dirname + '/../database/models/index.js');
+const db = require(__dirname + '/database/models/index.js');
 
 
 // view engine setup
