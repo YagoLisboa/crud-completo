@@ -13,7 +13,6 @@ const PORT = 3000;
 
 const db = require(__dirname + '/database/models/index.js');
 
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
